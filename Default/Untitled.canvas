@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"type":"text","text":"dsdas","id":"fd22276333e3f2f8","x":-788,"y":-509,"width":501,"height":202,"color":"3"},
+		{"type":"file","file":"Default/Termux.md","id":"6aea666679dd7f0c","x":462,"y":-1019,"width":468,"height":316},
+		{"type":"text","text":"some notes\n","id":"1cc10de8da612b1e","x":-1385,"y":-1384,"width":492,"height":152,"color":"#901414"},
+		{"type":"text","text":"","id":"b39de36c733c0353","x":-783,"y":-1850,"width":250,"height":60},
+		{"type":"file","file":"Bin/Assets/global.jpg","id":"09c14a35ac3f3116","x":496,"y":-474,"width":400,"height":167}
+	],
+	"edges":[
+		{"id":"54e972589c2d1a56","fromNode":"1cc10de8da612b1e","fromSide":"right","toNode":"fd22276333e3f2f8","toSide":"left"},
+		{"id":"3823255b129ffd58","fromNode":"1cc10de8da612b1e","fromSide":"right","toNode":"6aea666679dd7f0c","toSide":"top"}
+	]
+}
