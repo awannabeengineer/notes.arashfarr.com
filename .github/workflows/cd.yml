@@ -28,7 +28,7 @@ jobs:
           mv content/notes/Index.md content/_index.md
 
       - name: Build Link Index
-        uses: jackyzha0/hugo-obsidian@v1.0.2
+        uses: jackyzha0/hugo-obsidian@v2.1
         with:
           index: true
           input: content
