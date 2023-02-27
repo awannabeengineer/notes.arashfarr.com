@@ -11,18 +11,18 @@ jobs:
       group: ${{ github.workflow }}-${{ github.ref }}
 
     steps:
-
-      - name: Checkout notes
-        uses: actions/checkout@v3
-        with:
-          repository: awannabeengineer/wbe
-          path: ./content
-
       - name: Checkout quartz template repo
         uses: actions/checkout@v3
         with:
           repository: awannabeengineer/quartz
           path: ./
+
+      - name: Checkout notes
+        uses: actions/checkout@v3
+        with:
+          repository: awannabeengineer/wbe
+          token: ${{ secrets.GH_PAT }}
+          path: ./content
 
       - name: Housekeeping
         run: |
