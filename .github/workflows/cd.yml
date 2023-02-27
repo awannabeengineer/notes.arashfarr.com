@@ -24,10 +24,6 @@ jobs:
           token: ${{ secrets.GH_PAT }}
           path: ./content
 
-      - name: Housekeeping
-        run: |
-          mv content/notes/Index.md content/_index.md
-
       - name: Build Link Index
         uses: jackyzha0/hugo-obsidian@v2.1
         with:
