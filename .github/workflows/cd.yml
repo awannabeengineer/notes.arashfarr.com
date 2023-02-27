@@ -21,6 +21,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: awannabeengineer/wbe
+          token: ${{ secrets.GITHUB_TOKEN }}
           path: ./content
 
       - name: Housekeeping
